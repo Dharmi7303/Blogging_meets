@@ -1,0 +1,67 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff; /* Change text color to white for better readability */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2); /* Semi-transparent white shadow */
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+}
+
+p {
+    color: #ccc; /* Light gray text color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #777; /* Darker border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    color: #fff; /* Text color */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color change */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Add animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation: fadeIn 1s ease-in-out;
+}
