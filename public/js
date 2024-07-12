@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Element clicked');
     });
 
+    
     // Changing styles
     element.style.color = 'red';
 
